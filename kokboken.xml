@@ -1,0 +1,1591 @@
+
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>En kort doch nyttig Kok-bok, 1740</title>
+            
+            <principal>Anneli Augustsson</principal>
+            <respStmt>
+               <resp>Encoding and editing</resp>
+               <name>Anneli Augustsson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition</edition>
+         </editionStmt>
+         <extent>81kB</extent>
+         <publicationStmt>
+           
+            <publisher>Anneli Augustsson</publisher>
+            <pubPlace>
+               <address>
+                   <settlement>Vislanda</settlement>
+                   <country>Sweden</country>
+               </address>
+              </pubPlace>
+            <distributor>Urshult Hotel</distributor>
+            <authority>Robert Augustsson, owner</authority>
+            <date when="2019-08-28">August 28, 2019</date>
+            
+            <availability>
+              
+               <licence>---</licence>
+            </availability>
+         </publicationStmt>
+         
+         <notesStmt>
+            <note>Transcribed from the original source document.</note>
+         </notesStmt>
+         
+         <sourceDesc>
+           <bibl>
+               <title level="m">En Kort doch Nyttig Kok-Bok Til desze tider lämpad. Hwarutinnan det
+                  Ehrbara Fruentimbret til Tienst, föreställes Huruledes man med minsta om- kostnad
+                  i hast kan tilreda Åtskillige Behaglige och wäl smakande Rätter. Samt i öfrige wid
+                  hwarjehanda tilfällen förefärdiga, Åtskillige Confecteurer Bestående uti Bakwärk,
+                  Mos och Salater. Med mera, som Registret utwisar.</title>
+               <author>unknown</author>
+               <publisher>Lars Arfvidsson Collin Kongl. Gymn. Boktr.</publisher>
+               <pubPlace>Strängnäs</pubPlace>
+               <date>1740</date>
+              <lang>sv fraktur</lang>
+            
+              <extent>48 pages</extent>
+         <depth>9mm</depth>
+         <height>160mm</height>
+         <width>100mm</width>
+             
+              <damage agent="tearing">on page 37 and 39</damage>
+           <add> Original binding leather, sewn binding. </add>
+            
+           </bibl>
+  
+         </sourceDesc>
+       
+      </fileDesc>
+     
+      <encodingDesc>
+         <projectDesc>
+            <p>The project is part of the course  Digitising Cultural
+               Heritage Material, 15 hp, in the international Master's programme 
+               Library and Information Science, Digital Library and Information ServicesBMDD118h,
+               Boras University, Sweden. Spring 2019.</p>
+            <p>The project is also aimed at creating a digital version of the cook book for its
+               current owner who is to be hosting the website with Urshult Hotel</p>
+         </projectDesc>
+          <editorialDecl>
+            <correction>
+               <p>In the register the entry for Miöd at Brygga has a handwritten correction, this correction is made in the encoded text.</p>
+            </correction>
+            <hyphenation>
+               <p>In general hyphens at end of line is not kept.</p>
+            </hyphenation>
+            <normalization>
+              <p>The old spelling is maintained except for v that is transkribed as u in some words such as vti, vtan, vnder,. </p>
+               <p>Double s and m is transkribed ss and mm. </p>
+           
+            </normalization> 
+            <interpretation>
+            <p>Text decoration is not included.</p>
+               <p>The printers notes on the pages are not included.</p>
+               <p>Handwritten signatures are not included.</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   
+   </teiHeader>
+
+   <text>
+      <front>
+         <titlePage rend="text-align: center">
+            <!-- 001_d.jpg -->
+            <docTitle>
+               <titlePart>En Kort doch Nyttig Kok-Bok Til desze tider lämpad. Hwarutinnan det
+                  Ehrbara Fruentimbret til Tienst, föreställes Huruledes man med minsta om-kostnad i
+                  hast kan tilreda Åtskillige Behaglige och wäl smakande Rätter. Samt i öfrige wid
+                  hwarjehanda tilfällen förefärdiga, Åtskillige Confecteurer Bestående uti Bakwärk,
+                  Mos och Salater. Med mera, som Registret utwisar. </titlePart>
+            </docTitle>
+            <byline>STRENGNES</byline>
+            <byline> Tryckt av Lars Arfvidsson Collin,<lb/> Kong. Gymn. Boktr. Åhr 1740. </byline>
+         </titlePage>
+
+         <epigraph rend="text-align: center">
+            <lg >
+               <l rend="bold">Företal</l>
+               <l rend="bold">Til</l>
+                  <l rend="bold">Thet Förnäma och Dygd-Ädla</l>
+               <l rend="bold">Fruentimbret.</l>
+            </lg>
+<lb/>
+            <lg>
+               <l> Fruer, Jungfrur allihopa</l>
+               <l>Som wil lära rättlig Koka,</l>
+               <l>Baka, Brygga, giöra Mos</l>
+               <l>Låt er denna bok behaga</l>
+               <l>Någon Lärdom der ur taga</l>
+               <l>Skal stedz öka Edert ros.</l>
+            </lg>
+<lb/>
+            <lg>
+               <l>Jag ej nekar många gifwas</l>
+               <l>Af Fru'ntimber som beskriwas</l>
+               <l>Denna konst fast högre lärdt;</l>
+               <l>Dyrt är äfwen Socker stycket</l>
+               <l>Spesserie mång pengar wärdt.</l>
+            </lg>
+<lb/>
+            <lg>
+               <l>Ty wid kokning man bör laga</l>
+               <l>Så at ingen har att klaga</l>
+               <l>Öfwer Pung ell' Magans fehl,</l>
+               <l>Denna Bok han kan er lisa</l>
+               <l>Efter Stånd och Wilkor wisa</l>
+               <l>huru hwar en får fin dehl.</l>
+            </lg>
+
+         </epigraph>
+         <!-- hur notera det handskrivna namnet? -->
+      </front>
+
+      <body>
+         <div1 type="Recept">
+            
+            <pb n="1"/>
+          <p>1</p>
+            <p><hi rend="bold">At giöra Wallonska Kårfwar</hi></p>
+            <p> Tag 16 Marcker magert <lb/> swinkiött och 3<lb/> marcker ungt Oxkiött, rensa<lb/>
+               det wäl och tag bort alla Ådror<lb/> och senor, hacka det wäl<lb/> smått, sedan tag 2
+               Skålpund<lb/> färskt hårdt Fläsk, skiär det<lb/> i små Tärningar, fått det i kölden
+               att blifwa hårdt,<lb/> sedan knådes til hackade kiöttet 6- Lod Stött<lb/> Peppar,
+               Salt 16. Lod, Muskat Blomma 1 Lod,<lb/> Muskot 1 Lod; När detta är blandat och
+               genom<lb/> arbetat, blandas Fläsket dertil, tag stora wäl<lb/> rengiorda Oxtarmar,
+               wrid om och blås dem op,<lb/> låt dem hänga 2. eller 3. dagar i Luften; Detta<lb/>
+               skal skie för än Kårfmaten tilredes, lägg dem sedan<lb/> en Tima i Rödt Win, krama
+               Winet wäl<lb/> ut och låt Fiälstren icke wara för wåta eller för<lb/> tårra, ståppa
+               Maten rätt hordt uti dem, knyt wäl</p>
+               <pb n="2"/> 
+              <p>2</p>
+               <p>wäl till wid bägge ändar, tag så af tort Biörckträ<lb/> 5. eller 6.
+               stycken kantiga spiälor, långa som<lb/> Kårfwen, bind dem rundt omkring, at det
+               gier<lb/> Form som en Stierna, häng dem 3. dagar i luften,<lb/> sedan 8.a 10. dar i
+               kall ren Rök, sedan kunna<lb/> de ätas efter 4. a 6. Weckor: Om de hänga något<lb/>
+               länger i Stadig kall Rök skadar dem icke, spiälorna<lb/> skola hwar Tredie eller
+               Fierde dag Hårdare <lb/> tillbindas, de måste i förstone icke hängas der som<lb/>
+               fuchtigt är. </p>
+            
+            <p><hi rend="bold">Rull Sylta</hi></p>
+            <p>Flå Swålen med något fett och kiött af Swinet,<lb/> rensa wäl Håren af, skiölg honom
+               wäl<lb/> och låt watnet rinna wäl af, tag tunt skurit kiött<lb/> och fläsk, lägg
+               först näst swålen Pistager, Mandel<lb/> i rimsor skurne, hårdt kokte Ägg, stötte
+               Cardemummor,<lb/> Muskat-blomma, Peppar, grant<lb/> Salt och litet Neglikor, detta
+               blandas ihop, lindas<lb/> med starck tråd, swålen skiäres som en wil hafwa<lb/>
+               Rullen til, sedan kokas de rätt wäl uti Salt<lb/> och Watn, ätes i skiwor skurne med
+               Ättika; de <lb/> hålla sig icke länge, de förwaras i kalt rum, intet<lb/> i Sallaken
+               utan torra äro de bäst. </p>
+            <p><hi rend="bold">Kalf Sylta</hi></p>
+            <p>Godt Kalf-huvud lägges i salt Watn at<lb/> blodet drages wäl utur, kokas at håret går
+               af, <lb/> men intet kokas förmycket, ränsas rent, lägges <lb/> åter i salt watn en
+               liten stund at blifwa kalt, fullkokas<lb/>
+            </p>
+            <pb n="3"/>
+            <p>3</p>
+            <p>i rent watn, tages op, och låter Soppan<lb/> koka tils hon stannar som en galle, når
+               Soppan<lb/> är stannad och hufwudet kokadt, skiäres den klara<lb/> Swålen af hufwudet
+               i små tunna rimsor, Örlapparna<lb/> äfwenledz, Soppan smältes upp blandas med
+               Citron-Saft eller Win-Ättika,<lb/> wil man hafwadt rödt, tages Barbaris-Saft, <lb/>
+               Någlikor, Kardemummor, Muskat-Blomma<lb/> och Såcker, detta alt stött, blandas uti
+               efter egen<lb/> smak, och röres tils det stannar så är det färdigt.<lb/>
+            </p>
+            <p><hi rend="bold">Blå-Kål</hi></p>
+            <p> Blå-Kål lägges i salt Watn at Frosten drages<lb/> wäl ut, ränsas och hackas rätt
+               små, Rödbetter<lb/> intet fullkokta rifwes på Rif-Järn, sedan<lb/> tages rätt god
+               Oxkiöttssoppa och lägges Twå dehlar<lb/> Kål och En dehl Rödbetter deri och kokas wäl
+               <lb/> i 4 Timmar och alt som det kokar, inspädes af köttsoppan,<lb/> deri lägges
+               stundom ett stycke Färskt<lb/> Smör, sedan kokas torra Kastanier i watn, at<lb/> de
+               bli miuka som lägges i Kålen, Salt med<lb/> Muskat-Blomma det til, så är han färdig;
+               När<lb/> det anrättes, lägges några wackra Kiöttstycken <lb/> i Fatet.<lb/>
+            </p>
+            <p><hi rend="bold">Gröt af Söt Grädda.</hi></p>
+            <p> Tages rätt söt Grädda, alt som man wil<lb/> hafwa mycket til och sjelf behagar,
+               kokar tils han <lb/> blifwer tiock, litet godt hwete-Bröd rifwes och<lb/> lägges deri
+               så han är färdig.<lb/>
+            </p>
+            <pb n="4"/>
+            <p>4</p>
+            <p><hi rend="bold">Spicke-Kårfwar.</hi></p>
+            <p>Så mycket Oxkiött som Swinkiött tages af<lb/> det tiocka i Låret Skiäres och hackas
+               rätt smått, <lb/> drifwes genom ett Durchslag med litet Spanskt<lb/> Win, Fläsk i
+               små Tärningar skurit blandas der<lb/> til, smått Salt, grof stött Peppar,
+               halfstötte<lb/> Cardemummor, grof stött Canel och Muskat-<lb/> blomma; Oxtarmar feta
+               och tiocka blåses up<lb/> twå dagat tilförene, blötes up igen och ståppas<lb/> Maten
+               rätt hårdt uti, hängas up at rökas i en <lb/> Tunna wäl tiltäpt i 14 dagar, rökes
+               jämt med<lb/> Enewed eller Ris.</p>
+            <p><hi rend="bold">At giöra god Spicke-Skincka.</hi></p>
+            <p>Skinckan bultas litet på Kiöttsidan och lägges <lb/> wäl i Salt i 3 Weckor; Men wil
+               man hafwa<lb/> henne röd, kokas Rödbeter, skurne i Skifwor,<lb/> lagde uti Ättika och
+               sedan de äro kalla lägges de <lb/> på Skinckan, Lagen slås till Sallakan 3 dagar<lb/>
+               förr än man henne tager utur Sallakan, sedan<lb/> tages hon och lägges emellan twänne
+               bräder,<lb/> under tyngd, at Laken prässas wäl ut, åter saltas<lb/> intet på
+               kiöttsidan utan på swålen, ligger så deri<lb/> 3. dagar. derefter, hänges 2. dagar i
+               wädret och <lb/> en månad i Rök, sedan tagen utur röken hänges <lb/> i ett rum som
+               altid Eldas, til Wåhren, då hon<lb/> af Wädret igenombiten kan wahra öfwer
+               Sommaren.<lb/>
+            </p>
+            <pb n="5"/>
+              <p>5</p>
+            
+            <p><hi rend="bold">At Röka Gåshalfwor.</hi></p>
+            <p>Giässen klufne låter man bliwa kalle, icke så<lb/> at feta sidan bliver styf, sedan
+               saltas de med fint <lb/> Salt och litet Salpeter blandas i Saltet, efter<lb/> 14.
+               dagar tages de utur Saltet och hänges i jämn<lb/> Rök i 5 dagar, när de äro
+               fullrökte, kokar man<lb/> en Lag och twättar af dem Saltet, tårckas wäl<lb/> i ett
+               Eldat rum, då äro de färdige.</p>
+            <p><hi rend="bold">God Ärt-Soppa.</hi></p>
+            <p>Medan god och kraftig Oxkiöttssåppa kokar, <lb/> kokas goda hwita Ärter i en annan
+               Panna, wäl<lb/> miuka at de mosas, på 4 Semlor eller flera gräf-<lb/> wes det miuka
+               ut, doch så at inga hål blifwer på<lb/> skårpan. Skiär Oxmuhlar i små långa
+               Rimsor,<lb/> Kalfbriss förwäld och i Smör stekt, gröna Ärter<lb/> om man har dem,
+               förwälde och i Smör stekte <lb/> Murcklor, detta skiäres alt i små Tärningar, <lb/>
+               rifwit Bröd, några Äggeguhlor, söt Grädda,<lb/> små skuren Persilja, Muskat-Blomma,
+               alt<lb/> detta giord til Fyllning lägges i Semblorna och<lb/> låcket der på, sedan
+               wältras Semblorna i Miölck<lb/> och i förenembde Kiöttsoppan, anrättes på Fatet<lb/>
+               som man wil hafwa det på Bordet och sätter det<lb/> på Fyrfat, deri lägges dessa
+               Semblor, i Soppan<lb/> lägges alt det som i Semblorna är, såsom <lb/> Oxmuhlar,
+               Kalfbriss, Murcklor och Ärterna och<lb/> låter det något koka på Fyrfatet, sedan
+               rifwes<lb/> Ärterna genom ett Durchslag och redes Soppan til<lb/></p>
+               
+               <pb n="6"/> 
+               <p>6</p>
+               <p>så tiock man wil hafwaht, Muskot och Salt lägges<lb/> deri så är hon
+               färdig.</p>
+            <p><hi rend="bold">Pastej af Fogel.</hi></p>
+            <p>Rätt färska rengiorda Årrar eller Jerpar<lb/> Förwälles i hast i siudande watn, Spädes
+               med<lb/> Talg eller Fläsk tiockt skurit och wältadt i Salt,<lb/> Peppar,
+               Muskat-Blomma, Foglarna somlige<lb/> hela, somlige späckes i tw klufne Smör <lb/>
+               kokas i ett behageligit Kiärille och Foglarne deri en<lb/> stund efter ens tycke, der
+               på slås god Kiöttsoppa<lb/> och kokes till de blifwa möre, med förenämbde<lb/>
+               Krydder och Rifwit Bröd at Soppan blifwer <lb/> lagom. Tröffel eller Schampioner och
+               Murcklor <lb/> Förwällde och stekte i Smör, hafwer man och<lb/> optårckade gröna
+               Ärtskåckor, kokas i Kiöttsoppan<lb/> och silas till Foglarna 2 a 3. stycken
+               rengiorde,<lb/> Lagerbärs-Blad och Citron-Skahl kokas <lb/> alt tilsammans, och in
+               mot det blir kokadt,<lb/> slår man godt Glas Win derpå, sedan lägger på<lb/> Fatet at
+               blifwa kalt; och Soppan för sig, så tages<lb/> Kalfbriss, Oxmuhlar i Smör brynte,
+               Oliver,<lb/> något Lemon-Skifwor, Äggeguhlor tw skurne,<lb/> Fyllda Kräftor,
+               Frikadeller långa eller trinda, <lb/> som en wil, giöres god Smördeg som til en
+               Tårta<lb/> och lägges i Pannan, Degen först, sedan hackad<lb/> Talg der på; Kalf och
+               Swinkiött med Peppar <lb/> och Salt hackas tilhopa och lägges under i<lb/> Pastejen,
+               alt det tilredda lägges hwarstals med<lb/></p>
+               
+               <pb n="7"/> 
+               <p>7</p>
+               <p>samma Krydder emellan hwart hwarf, Citron-<lb/> Skahl, Lagerbärs-Blad och
+               Märg den lägges <lb/> öfwerst uppå, Soppan som Foglarna äro kokte<lb/> uti slås
+               öfwer, så Lock der på och bakas i Ugnen i<lb/> halfannan Tima, litet för anrättningen
+               sättes<lb/> Pastejen på et Fat, skiäres opp, slås mer Soppa <lb/> i, då är han helt
+               färdig.</p> 
+            
+            <p><hi rend="bold">Pastej af Dufwor.</hi></p> 
+      
+            <p>Rätt Unga Dufwor 3. eller 4 stycken intet<lb/>
+               äldre än Kycklingar, de rengiorde skiäres i 4 delar<lb/>
+               eller i tw som hwar behagar, Hufwud och <lb/>
+               Fötter kastas bort, kokas med Smör en stund,<lb/>
+               slås god Kiöttsoppa der på, Ett halft Skalpund<lb/>
+               Kalfbriss, 5 stycken Oxmuhlar miukt kokte skiäres<lb/>
+               i smala Strimlor och brynas i Smör tillika<lb/>
+               med brissen, lägges til Dufworna at koka med<lb/>
+               rifwit Bröd, Muskat-Blomma, Näglikor,<lb/>
+               litet Peppar, Citron-Skahl små skurna, <lb/>
+               Lagerbärs-Blad, litet Rölök och god dehl förwälda<lb/>
+               och i Smör brynte Murklor, det måste wäl <lb/>
+               tilsamman kokas. Til särdeles god smak, tages litet<lb/>
+               Citron-Saft och Win dertil medan det kokar,<lb/>
+               sedan det tages af Elden och låtes kalna, giöres<lb/>
+               så länge Frikadeller af Talg och Kalfkiött och<lb/>
+               det som medföljer till Frikadeller, sedan lägges det<lb/>
+               hwarftals i Pastejen med Deg under; Hackadt <lb/>
+               Kiött, Talg, Persilja, litet Peppar och Salt<lb/>
+               hacks tilsamman och lägges under på Degen<lb/>
+            </p>
+         <pb n="8"/>   
+            
+            <p>sedan hwarftals af de Stufwade Dufwor med<lb/>
+               Krydder emellan, som Muskat-Blomma, litet<lb/>
+               Neglikor, Peppar, Citron-Skahl och skifwor af<lb/>
+               Citron, hårdt kokte Äggeguhlor i tw skurna,<lb/>
+               Sucat i långa rimsor skurna, Kalfbriss, litet <lb/>
+               Lagerbärs-Blad, litet grant Salt och Pistasier, när<lb/>
+               alt är hwarftals lagdt, slås soppan der til och <lb/>
+               lägges låcket på af sama smördeg som under är och<lb/>
+               sättes i Ugnen i god wärma til en half tima, och emot<lb/>
+               han är färdig, sättes Kiöttsoppan på Elden med<lb/>
+               liten bit Socker uti och redes af med en Äggegula, <lb/>
+               När Pastejen är färdig på Fatet, skärs han op<lb/>
+               och slås Soppan deri och åter sättes i Ugnen.</p>
+               
+            <p><hi rend="bold">Goda Pöse-Munkar.</hi></p>
+            <p>Sätt Miölk på Elden och wispa godt Hwete-<lb/>
+               miöl deri at det blifwer som en Gröt, slå det på<lb/>
+               Fat, bruka och rör mycket wäl tils det swalas,<lb/>
+               slå Ägg deri at Degen får lagom guhl färg, mäst<lb/>
+               Äggeguhlor, lägg dei litet Kardemummor, sedan<lb/>
+               slå det Skiedbladtahls i Skirdt Smör til at<lb/>
+               bakas.</p>
+               
+            <p><hi rend="bold">God Lemon-Kaka.</hi></p>
+            <p> Lemoner 3 stycken skurne i tw och kiärnorna<lb/>
+               utgräfne lägges öfwer natten i watn, sedan<lb/>
+               kokas de i 3 watn tils de blifwa så miuka at ett<lb/>
+               Mortel til ett Mos, sedan röres 1 Skålpund<lb/>
+               fijnt rifwit Socker deri, halftannat Skålp. söt</p>
+            
+               <pb n="9"/>
+            
+            <p>Mandel, skahlas, stötes och röres dertil, 10. st.<lb/>
+               Ägg 5 med hwitan, wispas wäl, medan det andra<lb/>
+               röres wäl, slås Äggen dertil och röres stadigt,<lb/>
+               sidst slås deri Ett halft Skålp. färskt Skirdt <lb/>
+               Smör, röres åter En eller Twå Timar alt stadigt<lb/>
+               på en sida, sedan lägges Deg på bottnet i Pannan, <lb/>
+               der på slås denne smeltan och sättes i Ugnen<lb/>
+               at bakas, det måste lagas efter hwart annat som<lb/>
+               här är skrifwit.</p>
+               
+            <p><hi rend="bold">En god Rågbrödz-Kaka.</hi></p>
+            <p>Rifwit Rågbröd 1. Skålp. wäl blött i Win, <lb/>
+               tryckes emellan twänne Talrikar at Winet rinner<lb/>
+               wäl af, twättat Smör 1. Skålp., 20. stycken <lb/>
+               Ägg, 6 . deraf med hwitan röres En god Tima,<lb/>
+               med 1 Skålp. Socker, Ett halft Skålp. stött<lb/>
+               Mandel, litet Citron-Skahl och litet Canel,<lb/>
+               wäl tilsammans, sedan Bakas i ett Fat i Ugnen,<lb/>
+               en gammal rand af Såll eller Sichte fåttes <lb/>
+               omkring Bräddarna på Fatet, at Kakan får gie sig<lb/>
+               op och intet rinner af.</p>
+               
+            <p><hi rend="bold">En annan Rågbrödz-Kaka.</hi></p>
+            <p>Ett Rifwit Bröd i Smör Stekt, Äpplen <lb/>
+               Stufwade med litet Win, Socker och Kanel,<lb/>
+               smöries Ett Silfwer-Fat eller Stenpanna med <lb/>
+               kalt Smör; Först lägges Bröd på botten, sedan <lb/>
+               Äpppel-Mos hwarftals med Bröd, litet<lb/>
+               Citron-Saft och litet Citron-Skahl och Socker<lb/>
+               emellan hwart hwarf och Bakas på wanligt sätt.</p>
+         
+               <pb n="10"/>
+               
+            <p><hi rend="bold">Sur Grädde-Kaka.</hi></p>
+               <p>Til Ett Stop Grädda tages 6. stycken Ägg,<lb/>
+                  3 med hwitan, Rifwit Hwetebröd som en sielf<lb/>
+                  ser det blifwer lagom, stött Cardemumma, Socker<lb/>
+                  efter smak; wil man taga litet Citron-Skahl<lb/>
+                  och Saft, är och godt; Pannan smöries med<lb/>
+                  kalt Smör och Rifwit Bröd på Båtten, der på<lb/>
+               slås den rörde Gräddan och Bakas i Ugnen.</p>
+               
+            <p><hi rend="bold"> En annan god Grädd-Kaka.</hi></p>
+            <p> Til Ett halft Stop sur Grädda tages 4. Stycken<lb/>
+                 Äggeguhlor, 3. stycken Ägg med hwitan och<lb/>
+               guhlan, Ett Fierdedels Skålp. söt Mandel, 10.<lb/>
+               stycken Bitter-Mandlar, rifwit Bröd icke<lb/>
+               fyllest efter en Sembla, Saften af twänne Citroner,<lb/>
+               det guhla Skahlet rifwes af och lägges deri <lb/>
+               Socker och Cardemummor efter smak och god dehl skirdt<lb/>
+               Smör, detta slagit i Silfwer-Fat strös Socker<lb/>
+               och Citron-Skahl på och så sättes i Ugnen at bakas.</p>
+               
+            <p><hi rend="bold"> Ägg-Tårta.</hi></p>
+            <p>Til 6. stycken hårdt kokt och smått hackade<lb/>
+               Ägg tages Et Fierdedehls Skålp. Korinter,  <lb/>
+               rifwit Hwetebröd En half Sembla, det fucktas<lb/>
+               med Win, röres wäl om, der til Socker nog,<lb/>
+               smält Smör, Kanel, smått skurit Sucat, 3. <lb/>
+               sönderklappade Ägg och rifwit Citron-Skahl;<lb/>
+               Röres wäl alt tilsamman, lägges mellan god<lb/>
+               Tårtedeg och Gräddas i Ugnen.
+               </p>
+               <pb n="11"/>
+               
+            <p><hi rend="bold">Buding af färsk Strömming. </hi></p>
+            <p>Tag stor färsk Strömming rå ifrån benen,<lb/>
+               stöt honom till en Deg, efter behag, sedan smält<lb/>
+               en god dehl färskt Smör med så mycket Ansiovis<lb/>
+               uti, til lagom smak, stila det til Strömmingen,<lb/>
+               lägg 5. a 6. Ägg med hwitan och guhlan til rifwit <lb/>
+               Bröd, Citron det guhla afrifwit, Salt, Et glas<lb/>
+               Spanskt Win, Muskat-Blomma, detta alt wäl <lb/>
+               tilhopa slås i en Panna som wäl smörjes och <lb/>
+               sättes i Ugnen at Bakas.</p>
+               
+            <p><hi rend="bold"> Sten-Kakor fyllda med Fisk.</hi></p>
+            <p>Benen plåckade rätt wäl af Giäddan hackas <lb/>
+               rätt små, der til blandas 3. stycken Ägg, litet söt <lb/>
+               Grädda Citron-Skahl rifwit Bröd, Peppar, <lb/>
+               Muskat-Blomma, färskt Smör och Ansiovis<lb/>
+               efter smak, blandas alt ihopa och Bakas tunna <lb/>
+               Sten-Kakor halfbakade, af den hackade Fisken<lb/>
+               lägges i hwar Kaka så mycket en wil, rullar dem<lb/>
+               ihop hwar för sig och bakar dem på nytt i Smör<lb/>
+               så äro de färdige.</p>
+               
+            <p><hi rend="bold"> Fyllda semblor.</hi></p>
+             <p>Bakas små intet aldeles som twå örs Semlor<lb/>
+                rafsar dem under och öfwer, skiär runda<lb/>
+            Låck åfwan til, gräfwer Kramet ut, dock acktar,<lb/>
+            at hål ej går på botnet, sedan fylles med Kalfbriss,<lb/>
+            Schampioner, Murcklor, gröna Ärter, färska<lb/>
+            Ostron, om man har dem, alt detta skiäres i <lb/>
+               Tärningar;</p>
+            
+            <pb n="12"/>
+            <p> Litet Hwetemiöl, litet smält Smör,<lb/>
+               litet Kiöttsoppa, Muskat-Blomma, Peppar,<lb/>
+               färska Citron-Skahl kokas ihop tils det blifwer<lb/>
+               tiockt, sedan tages det af Elden at blifwa kalt,<lb/>
+               der med Fylles de utgräfna Semblor, Låcket <lb/>
+               pålagdt bindes öfwer i kors med en tråd ; I söt<lb/>
+               Miölck wispas 3 a 4. Äggeblommor, Semblorna<lb/>
+               lägges i Miölken at litet blötas strödes litet<lb/>
+               hwetemiöl omkring dem och Baks sedan i skirdt<lb/>
+               Smör som Klenetter at de blifwa lagom bruna.</p>
+               
+            <p><hi rend="bold">At Baka små runda goda Rån.</hi></p>
+            <p>Til et stop Miölck tages 4. stycken ägg, twå<lb/>
+               med hwitan andra med guhlan, twå Skiedblad<lb/>
+               skirdt Smör, Socker efter behag, Hwetemiöl<lb/>
+               wispas i tils det begynner tiockna, sedan Bakas<lb/>
+               de och giöras platta eller kruma, enär de tagas<lb/>
+               utur Järnet.</p>
+               
+            <p><hi rend="bold">Annan slags Rån.</hi></p>
+            <p>Söt Grädda Et halft Stop, Socker et halft<lb/>
+               Skålpund, hwetemiöl Et halft Skålpund,<lb/>
+               stött Canel, litet Citron-Skahl, blandas alt<lb/>
+               wäl ihop och bakas i ett Krusjärn.</p>
+               
+            <p><hi rend="bold">Än ett slags Rån.</hi></p>
+            <p>Tages Ägg, ett halft Skålp. rifwit Socker,<lb/>
+               ett halft Skålp. skirdt Smör, litet rifwit Citron-<lb/>
+               skahl och godt hwetemiöl; Äggen wattnet och<lb/>
+               detta wispas wäl ihop til lagom tiock Deg, <lb/>
+               Bakas ett skiedblad i ett Järn, lika under </p>
+               
+          
+            <pb n="13"/>
+         
+         
+        <p>
+         och öfwer, tages utur Järnet, rullas omkring
+         en Kafwel.</p>
+         
+          <p><hi rend="bold">Rätt goda Wåflor.</hi></p>
+         <p>Tag ett halft Stop rätt söt Grädda, ett Fierdedels<lb/>
+            Stop watn, färskt Smör en half Marck, <lb/>
+            Gräddan och Wattnet wispas wäl ihop, Smöret<lb/>
+            slås warmt der til at det håller ihop, som pröfwas<lb/>
+         med Järnet.</p>
+         
+         <p><hi rend="bold">Peppar-Kakor.</hi></p>
+            <p>
+               Honung siudes på sachta Eld småningom;<lb/>
+               Men kokas intet hårdt, skumes rätt wäl, deri<lb/>
+               lägges stötta Citron- och Pomeranss-Skahl,<lb/>
+               Skalade ostötte Cardemummort, fijnt stött Peppar,<lb/>
+               deri, är det fritt: röres fijnt Rågmjöl med en Wisp<lb/>
+               deri, sedan det tiocknar, röres med Kräkla så<lb/>
+               mycket Miöl uti, at han blifwer som en hård <lb/>
+               Wispdeg, detta skier på en sachta Eld sedan lyftes<lb/>
+               av Elden, röres tils det så swalnar at det kan<lb/>
+               handteras med Händren, der af tages ett stycke<lb/>
+               stort, som man wil hafwa Kakan, arbetes emellan<lb/>
+               Händren, drages ut, åter tilhop tils det blifwer<lb/>
+               wäl arbetadt. Blifwer det emedlertid kalt,<lb/>
+               måste man stå dermed wid Elden och när Degen<lb/>
+               är nog arbetad, skal han strax slås på ett Papper<lb/>
+               och sättas at giäsa; men icke så mycket at han spricker,<lb/>
+               och förr än Kakorna fåss i Ugnen bestrykes<lb/>
+               de med Sockerlag, man kan och bespäcka dem	<lb/>
+   
+         </p>
+        <pb n="14"/>
+            <p>med Sucade och halfwa Muskater om så lyfter:<lb/>
+               Ugnen måste wara så warm som til Semblor<lb/>
+               behöfwes, hwilket skal då tillika skie, at man deraf<lb/>
+               kan weta när kakan är Bakad; ty när Semblorna<lb/>
+               äro nog bakade, då ska ock Peppar-Kakan<lb/>
+               tagas och straxt betäckas med Kläde, at de intet<lb/>
+               kalna och straxt bäras i Källaren, då äro de färdige<lb/>
+         som de böra wara.</p> 
+         
+           <p><hi rend="bold">At koka Citron-Schele.</hi></p>
+            <p>Saften tages as 6 stycken Citroner, Skahlet<lb/>
+               rifwes af twänne Citroner först, sedan slås ett<lb/>
+               glas Win i Citron-saften och sijlas genom ett<lb/>
+               Kläde, 12. stycken Äggeguhlor wäl wispade och<lb/>
+               de rifna Citron-Skahl slås der ibland, sedan<lb/>
+               giörs det sött som man wil hafwat, rör wäl tilhopa<lb/>
+               och koka tils det blifwer lagom tiockt, så<lb/>
+         är det nog.</p>
+         
+           <p><hi rend="bold">Swart Kierssbärs-Mos.</hi></p>
+            <p>Kierssbär tages efter behag, Gemenaste äro<lb/>
+               de bäste, de swarta som plåckas af stielkarna<lb/>
+               sönderkokes i sin egen Saft, sedan rifwes de rätt heta<lb/>
+               genom ett Såll at stenarna blifwa qware, derpå<lb/>
+               kokas de åter, tils det blifwer så tiockt som det<lb/>
+               skal wara: Somlige läggia til en lagom Kiettel<lb/>
+               med Mos, en Sockertopp, det Conserverar <lb/>
+               Moset rätt wäl : Stenarna stötte till Pulfwer,<lb/>
+               eller allenast Kiärnarna stötte, läggia somlige<lb/>
+         deri för dess conservation och goda smak skull. Medan<lb/>
+         
+         <pb n="15"/>	
+               dan det står på Elden, skal det röras wäl, Någre<lb/>
+               rifwa Bären rå genom Durchslag ; Men bättre <lb/>
+         gå de genom förut kokte ; Bäst är utan Socker.</p>
+         
+         <p><hi rend="bold">At Baka Fransyska Bröd.</hi></p>
+            <p>Tre Stop Miölck med en half Marck färskt<lb/>
+               Smör wäl wärmadt ; men lagom swahl slås i<lb/>
+               ett Tråg med Ståhlqwarns-Miöhl iblandad,<lb/>
+               därtil 8 stycken Ägg, 4. med guhlan, 4. alt med<lb/>
+               hwitan, arbetes wäl ihop, Degen giöres efter<lb/>
+               möyelighetern lös, deri lägges 3. Skiedblad god <lb/>
+               Giäst, Swagöhls är bäst, Degen hälles i<lb/>
+               träskåhlar eller andra, där til tiänlige, Kiärille, i<lb/>
+               hwardera Kiärillet så mycket som ärnas til hwar<lb/>
+               Limpa, Skåhlen miölad wäl under ; Limporna <lb/>
+               först giäsna tils de beynna at sprida, stielpas<lb/>
+               uhr Skåhlen på den wäl miölade Grisslan,<lb/>
+         naggas och Bakas uti en lagom Eldad Ugn.</p>
+         
+              <p><hi rend="bold">Munckar af sur Grädda.</hi></p>
+         <p>Ett Stop Miölck 6. st. Ägg, 4. med hwitan<lb/>
+            2:ne med guhlan, röres wäl tilhopa med godt<lb/>
+            hwetmiöl tils det blifwer lagom tiockt, som kan<lb/>
+            proberas, at de gie sig up, litet Cardemummor, sedan<lb/>
+            bakade i Muncke-Panna lägges på grådt Papper.</p>
+         
+             <p><hi rend="bold">Äppel-Munckar.</hi></p>
+            <p>Friska Skahlade Äpplen skurne i tu tages kiärnhuset<lb/>
+               ut, lägges i Miölck, Bakas i Smör at de <lb/>
+               blifwa lagom bruna, sedan lägs de på grådt Papper,<lb/>
+         rifwes Socker på och ätes warma.</p>
+            
+         <pb n="16"/>
+   
+           <p><hi rend="bold">Fyllda Abborrar.</hi></p>
+<p>Af Abborrar skurne up i ryggen tages Kiöttet<lb/>
+   wäl ut, achtas at Skinnet intet går sönder,<lb/>
+   Kiöttet hackas, Stufwas wäl med Smör, litet<lb/>
+   Win, Muskat-Blomma, Citron-Skahl,<lb/>
+   Ansiovis, Peppar och Salt, doch Stufwas icke alt<lb/>
+   för torr, lägges igen hwar på sitt skinn / twänne <lb/>
+   Äggeblommor dertil at det håller ihop, lägges på<lb/>
+   imedlertid tages af det tunnaste af Fyllningen och <lb/>
+slås altid på hwar Fisk at han intet blifwer för <lb/>
+torr utan brun.</p>
+            
+<p><hi rend="bold">Stufwa små kycklingar, rätt goda.</hi></p>
+            <p>Kycklingarna rengiorde lägges straxt i en wäl<lb/>
+               tiltäpt Kruka, med godt Smör, Persilja, <lb/>
+               Muskat-Blomma, litet Socker, litet Lök, om så<lb/>
+               behagas; kokas på sachta Eld och när de äro miuka,<lb/>
+               stickes ett hohl i ryggen på dem och der kalt <lb/>
+               Smör och Persilja, slår wäl Kiärlet omkring at<lb/>
+Soppan blifwer samtiock, så äro de färdiga.</p>
+
+<p><hi rend="bold">Socker-Bröd af Citroner.</hi></p>
+            <p>Skahlet af 2. eller3. Citroner rifwes wäl af<lb/>
+               Rifjärn, hwitan as 2. Ägg klappas med Citronerne<lb/>
+               wäl tilhop, giöres en Deg der af med fijnt<lb/>
+               sichtadt Socker, sådan, at deraf kan bakas små<lb/>
+               Kringlor och Kakor som sättes på Papper och <lb/>
+               bakas emellan twänne Spiell eller Tårtpanna, tils<lb/>
+               de blifwa något bruna ofwan på, sedan tagas de<lb/>
+med en Knif af Papperet.	</p>		
+
+<pb n="17"/>
+	
+
+<p><hi rend="bold">Socker-Bröd.</hi></p>
+            <p>Sönderklappade Ägg 7. stycken, 1. Skålp.<lb/>
+               Socker, godt Hwetemiöl 1 Skålp. röres wäl <lb/>
+               ihop, sedan öses med en skied på Papper som sättes <lb/>
+i Ugnen til at bakas tils det är nog.</p>
+
+<p><hi rend="bold">Annat slags Socker-Bröd.</hi></p>
+           <p> Man wispar 7.st. Ägg at de nog fradgas,<lb/>
+            til hwart Ägg et skiedblad Rosenwatn, 1. Skålp.<lb/>
+            sichtadt Socker, Hwetemiöl 3. Skålpund <lb/>
+            af det bästa, röres wäl ihop förr än Miölet lägs<lb/>
+            uti, sedan röres åter at man ser inga klimpar der <lb/>
+            uti; sedan giöres at twänne Arck, 8 stycken pappers<lb/>
+            former wikna wäl fast med en rand omkring,<lb/>
+            sedan strödes litet Miöl under och der på 1. eller 2.<lb/>
+            skiedblad af hopwispade Deg och låter runt omkring,<lb/>
+            slår åter mer uti och låter då runt om Formen <lb/>
+            att det är som et tiockt Halmstrå, bakas så <lb/>
+            emellan twänne Spiell eller Tårtpanna; Förut <lb/>
+            slås groft stötte Kardemummor och fint Socker<lb/>
+            ofwan på dem och bakas sedan tils de blifwa litet <lb/>
+bruna ofwanpå.</p>
+
+<p><hi rend="bold">Hallon-Mos.</hi></p>
+            <p>Bären kramas och mätes en del Hallon-Saft<lb/>
+            och Twänne dehlar Winbärs-Saft, fint Socker<lb/>
+            lika många Kåppar som Saften är, låter det stå<lb/>
+            at Sockret blifwer wäl smält, slås sedan uti en <lb/>
+            Syltkittel något wid, kokas hastigt tils man kan<lb/>
+            skiuta det på skieden eller slår en dråppa på talrick;<lb/>
+		<pb n="18"/>
+               Doch kokas intet för mycket at det blifwer segt,<lb/>
+               då är det färdigt.</p>
+
+<p><hi rend="bold">Tranbärs-Mos.</hi></p>       
+            <p>Bären ränsade krames Saften ut, lika mycket<lb/>
+               Socker mätes til, röres at Sockret smälter,<lb/>
+               sedan slås det uti en wijd Syltekittel, kokas up<lb/>
+               4. gånger hastigt, lyftes hwar gång högt up af<lb/>
+               Elden och skumes wäl, Burcken skal wara tilreds <lb/>
+               wäl warm, och strax slås der uti när det är<lb/>
+lagom.</p>
+            
+<p><hi rend="bold">Syltade Krikon.</hi></p>
+            <p>Tag utwalde ofläckiotta Krikon icke för mogna<lb/>
+               utan wäl hårda, stick i dem med en nål några<lb/>
+               gånger, låt dem ligga i kalt Watn så länge man<lb/>
+               kokar en rätt tiock Sockerlag, lägg Bären uti <lb/>
+               Sockerlagen då han står på Elden i et flatt Kiäril<lb/>
+               at de icke ligga för tiockt på hwar annan, för all<lb/>
+               ting lägg icke för starck Eld under, wänd dem ock<lb/>
+               sachta med en skumlslef omkring, när de bli <lb/>
+               genomheta i Sockerlagen så at skinnet begynner<lb/>
+               spricka af och tycker at de äro litet miukare än då de<lb/>
+               lades uti Sockerlagen så tag dem hastigt up af<lb/>
+               Sockerlagen, utbred dem på stora flata Faat,<lb/>
+               drag skinnet til rätta igen på dem som behöfwat,<lb/>
+               lägg dem uti Glasburck, slå sedan kall Sirap på,<lb/>
+               efter twänne dagar häll sachta af lagen och kokat<lb/>
+               med godt stycke Socker up som han är tunn til at<lb/>
+               han blifwer wäl tiock, slå den kalla lagen på dem<lb/>
+igen så äro de färdiga.</p>	
+            
+	<pb n="19"/>			
+  <p><hi rend="bold"> Syltade Niupon.</hi></p>
+            <p>Slå en god del Watn i en Syltekittel, lägg <lb/>
+               der uti 1. skålp. Scker och låt det koka til en tunn<lb/>
+               Sockerlag, koka sedan Niuponen der uti tils de <lb/>
+               blifwa miuka, sedan tag dem up och lägg på ett<lb/>
+               Stenfat at kallna, imedlertid lägg mera Socker<lb/>
+               uti lagen eller Sirapen, Niuponen lägs i en burck<lb/>
+               och den kalla tiocka Sirapen slås på dem, är han <lb/>
+               tunn så kokas han åter up med mera Socker så ofta<lb/>
+tils de äro nog Syltade.</p>
+            
+            <p><hi rend="bold"> Marmelad af Pomeransser.</hi></p>	
+            <p>Sedan 100 Pomeransser äro skahlade,<lb/>
+               Kiärnor och hinnor borttagne at rena Kiöttet och<lb/>
+               Saften blifwer qwar, blandas der uti 4. Skålp. <lb/>
+               Socker och låter det wäl smälta, imedlertid kramas <lb/>
+               Saften af twänne Citroner och twänne <lb/>
+               Apelsiner för sig sielft i en kopp, skiär sedan skahlet <lb/>
+               af en Apelsin, Citron och Pomerans i tunna och <lb/>
+               rätt små rimsor, koker, den föreskrefne <lb/>
+               Pomerans-Saften, som Sockret är i, uti en Syltkiettel,<lb/>
+               rör och skumar wäl; Men rätt som det <lb/>
+               begynner tiockna, lägger man förenämde skahlen <lb/>
+der uti, låter dem litet koka tils det blifwer segt.</p>
+            
+             <p><hi rend="bold">At Sylta Pomerans-Skahl.</hi></p>
+            <p>Wackra ofläckotta Pomeranss-Skahl, ju<lb/>
+               tiockare dess bättre, skiäres i 4. delar och lägges i <lb/>
+               rent watn i 4 eller 6. dagar, ömsar watn på dem<lb/>
+<pb n="20"/>
+hwar dag, sedan lägger och kokar dem i en stor<lb/>
+               Syltkiettel i watn, tils man kan sticka ett Halmstrå<lb/>
+               igenom dem, sedan tagne af det heta wattnet,<lb/>
+               lägges straxt i kalt watn litet, utbredes så på rent<lb/>
+               kläde, at watnet får wäl afrinna, sedan kokas en <lb/>
+               tiock Socker-Sirap, skahlen lägs i en Glas- eller<lb/>
+               Stenburck och Sirapen slås på kaller, är han <lb/>
+               tunn slås han åter af och kokas med ett stycke Socker <lb/>
+               tils han blifwer tiock och slås åter kall på, det <lb/>
+               giöres hwar annan dag så länge sirapen är tunn <lb/>
+               och Skahlen se klara ut; Åter kokas all Sirapen <lb/>
+               och Skahlen o en Syltkittel up tils man ser de äro<lb/>
+               rätt klara, då tag s Skahlen och lägges som täckas <lb/>
+               i Burcken och täppes wäl til med en Serviett, sedan alt <lb/>
+               är kalnadt, bindes Waxpapper öfwer Burcken <lb/>
+så äro de färdige.</p>
+            
+            <p><hi rend="bold">Syltade Barbaris Bär.</hi></p>
+            <p>Krama alla stenar ur Bären, koka så en tiock <lb/>
+               Sirap, låt bären kokas deri at de bli til en sylta,<lb/>
+               tag dem up och koka än lagen tils han blifwer tiock	<lb/>
+               och slå honom såleds kall på Bären, blifwer <lb/>
+               Sirapen tunn kokas han up åter med mera Socker <lb/>
+och slås kall på igen.</p>
+            
+<p><hi rend="bold">En god Soppa för Magert Folk.</hi></p>
+            <p>Häll det tunnaste af ifrån en på wanligit sätt <lb/>
+               kokad Havre-Soppa och wispa några Äggeblommor <lb/>
+								
+<pb n="21"/>
+               och litet Socker deri, det är en god Soppa<lb/>
+               för buksot och smakar wäl.<lb/>
+
+Item :<lb/>
+
+Tag sådan tunn Hafwer-Soppa kokad med <lb/>
+               Borago och Buglossa, giör deraf en Mandel-Miölck <lb/>
+               med skahlad Mandel stötte i Rosenwatn <lb/>
+               och litet Socker til, så är det färdigt: Wil man <lb/>
+               hafwa der til Äggeblommor, är det fritt; Men har <lb/>
+               en hetta eller törst, tå krames häldre litet färskt <lb/>
+Citron-Saft deri.</p>
+
+ <p><hi rend="bold">Mandel-Soppa.</hi></p>
+            <p>Hwetebröd skurit i tunna breda skifwor stekes <lb/>
+               wäl, stöt skahlade Mandlar små med Rosen- eller <lb/>
+               Canel-watn, blanda dem med Socker efter <lb/>
+               behof, lägg brödskifworna i ett Silver-Fat och <lb/>
+	              Mandelen på öfwerströdd med Socker och Canel <lb/>
+               slå söt Grädda öfwest och låt Fatet på Fyrfat eller <lb/>
+	glöd kokas igenom, så är det färdigt.</p>
+            
+	<p><hi rend="bold">Brunell-Soppa.</hi></p>
+            <p>	Man kokar Bruneller helt blöta i hälften Win <lb/>
+               och hälften Watn, steker Bröd i Tärningar skurna<lb/>
+               wäl bruna i Smör och lägger i Soppan med <lb/>
+               Canel och Socker och då man anrättar denna soppan, <lb/>
+	lägges förlorade Ägg derpå, om så behagas.</p>
+            
+	<p><hi rend="bold">Korint-Soppa.</hi></p>
+            <p>God del Korinter uti några watn wäl twätde<lb/>
+               at kokas med watn och litet Socker, sedan skäres<lb/>
+	
+		<pb n="22"/>
+	               
+	            Hwetebröd i Tärningar, stekes bruna uti<lb/>
+               Smör och lägs på Fatet, och när Corinterna äro <lb/>
+	nog kokade, slår man dem up med Soppan. </p>
+	
+	 <p><hi rend="bold">Capris-Soppa.</hi></p>
+            
+            <p>Kokas som förr är Skrifwit med Corint watn <lb/>
+               och Socker, Capris skiöljes rätt wäl uti några<lb/>
+               watn och kokas wäl ihop, slås på stekt bröd i Fat <lb/>
+               som på föreskrifwit fått tilredt är, det är en Capris<lb/>
+               Soppa : Litet Win kan ock hafwas i desse<lb/>
+               bägge Sopporna, om man wil, doch är denne<lb/>
+               wäl så god, ty Caprisen är sur dessutan ; Men <lb/>
+               kan sedan de äro wäl twättade, låta dem ligga <lb/>
+öfwer natten i watn och sedan kokas.</p>
+
+<p><hi rend="bold">Kräfte-Soppa.</hi></p>
+            <p>Kräftorna släppes i sjudande watn, och döde <lb/>
+               tages der vt igen och skahlar dem, Kiöttet stötes <lb/>
+               i en Mortel med hårdt stekt Hwetebröd, Skahlen <lb/>
+               stötes och med twänne Äggeblommor, sedan slår<lb/>
+               man Kiöttsoppa med litet Win och godt stycke <lb/>
+               Smör deri ( är det Oxkiöttsoppa fet behöfwes icke <lb/>
+               Smör) på de stötte Kräftskahlen, och kokar dem <lb/>
+               der med en god stund, sedan wrider det genom et <lb/>
+               rent kläde och kastar skahlen bort, slår det på de <lb/>
+               sönderstötte Kräftorna med litet Peppar, <lb/>
+               Muskat-Blomma, rifwit bröd och litet grant Salt <lb/>
+               der til, kokar det wäl tilsammans och rör ofta om;<lb/>
+               När om Hösten siudes Kräftor, då kan man af <lb/>
+               Kräftorna och det guhla inhuset taga och koka soppan <lb/>
+på föreskrifwit sätt.	</p>			
+
+<pb n="23"/>
+			<p><hi rend="bold">Spis-Kummins-Soppa.</hi></p>
+            <p>Tages Spis-Kummin så mycket som hållas<lb/>
+               emellan 3. finger, stötes rätt små, låtes förr <lb/>
+               et Stop watn wäl siuda i en Stenpotta än<lb/>
+               Spis-Kumminen lägges uti, sedan rör det wäl om med <lb/>
+               en wisp och låt åter siuda up en eller twå gånger,<lb/>
+               tag en eller twå slefwar kalt watn och rör godt <lb/>
+               Hwetemiöl der uti, at det blifwer som en tunn <lb/>
+               Wälling, då Spis-Kumminen är wäl siuden,<lb/>
+               så wispa wällingen dertil, rör stadigt med wispen <lb/>
+               medan det siuder, låter det wäl kokas up med Miölet <lb/>
+               3. eller 4. gånger, stek Rågbröd skurit i <lb/>
+               Tärningar, rätt hårdt i Smör, lägg det i ett Fat och <lb/>
+               Soppan derpå, utan annat Smör, än det som brödet<lb/>
+               är stekt uti; Det är en god och hälsosam Soppa <lb/>
+               och giör Appetit till Mat : På slika sätt kan <lb/>
+               Bröd-Kummins-Soppa kokas, doch hel och ostött <lb/>
+               och wäl rensad och tages mer af denne än af <lb/>
+               Spis-Kumminet. Somlige bränna Miöl til<lb/>
+               denna Soppa rätt som Smörgröt och röra sedan <lb/>
+               watn til så tunt som de wilja det hafwa, och äta<lb/>
+det utan bröd.</p>
+            
+            <p><hi rend="bold">At koka en god Korn-Wälling at han blifwer hwit.</hi></p>
+			
+            <p>Til en Kanna watn tag en Giöpna wäl rensad <lb/>
+               och dryftad Korngryn otwettade, låt dem hastigt <lb/>
+               siuda up och skumadt wäl af, lägg et godt stycke <lb/>
+               Smör der uti och när Grynen äro halfsudne så <lb/>
+
+<pb n="24"/>
+            
+            lägg en hand full blå Rusin ( är det Hafwergryn<lb/>
+               lägges Corinter ) til, låt honom siuda tils Soppan <lb/>
+               blifwer samtiock ; men lägges, litet förr än <lb/>
+               han tages af, Salt deri efter ens smak, så är han <lb/>
+               färdig. Skal Wällingen kokas åt en som hafwer <lb/>
+               ondt i Bröstet, tages då tillika med Rusin eller <lb/>
+               Corinter et skiedblad Anis eller Fängkål der til, <lb/>
+               många lägger Bröd-Kummin der uti; Den som <lb/>
+               kan fördraga Lök, så tager man Rölök en eller <lb/>
+               twänne efter storleken, skahlar och skiär i korss<lb/>
+               up i Löken och lägger honom hel uti då som det andra<lb/>
+               lägs ; Men de som genom Fetma hafwa <lb/>
+               ondt, skal det tunna hällas af åt den siuka. Wil <lb/>
+               man intet hafwa föreskrefne Örter deri, så kokas<lb/>
+               Wällingen samtiock med Hwetebröd i Tärningar <lb/>
+               eller skifwor skurit och hårdt stekt i färskt Smör, <lb/>
+               derpå slås Wällingen.  NB  Wällingen måste<lb/>
+               intet spädas eller siudas öfwer; Men skulle det <lb/>
+               behöfwas at spädas, (om han blefwe förtiock,) så <lb/>
+               måste wattnet som han spädes med wara siudande <lb/>
+               hett; Derföre, wil man hafwa Soppan tunn, <lb/>
+               tages mer watn än föreskrifwit är, han skal och <lb/>
+               icke kokas uti Metal utan i Stenpåtta som intet är <lb/>
+               Osig.        Då samma fått kokas och de store <lb/>
+               Helgrynen som ock Pärlegryns Wälling och är <lb/>
+               mycket god för hafwande Qwinnor och lägges <lb/>
+               altid litet Fängkål eller Bröd-Kummin uti <lb/>
+               Gryn-Soppan.
+</p>
+	<pb  n="25"/>
+
+<p><hi rend="bold">På annat Sätt.</hi></p>
+            <p>Manna-Gryn Kokas i Watn med ett stycke <lb/>
+               färskt Smör uti tils det blifwer som en tiock <lb/>
+               Wälling. Somlige lägga och en hand full blå Rusin <lb/>
+der uti.</p>
+
+<p><hi rend="bold">En Soppa som styrcker i siukdom, i synnerhetför Hafwande Qwinnor och Barnsängs Hustrur.</hi></p>
+		
+            <p>	Tag en hand full Korn-Gryn eller Pärle-Gryn <lb/>
+               siud vti Watn at det blifwer som en tiock <lb/>
+               Wälling, sedan hälles Wällingen af och lägs deri <lb/>
+               Mandel 4. Lod, Pion-kärnor 2. Lod, hwit <lb/>
+               Walmoge-Frö 1. Lod, desse hwar för sig, stötte, <lb/>
+               blandas i twå skedar Rosenwatn och en sked <lb/>
+               Canelwatn, wäl ihop, och medan de stötas, lägs <lb/>
+               litet i sänder af alla dessa 3. slagen, eljest gifwa de <lb/>
+               Olja ifrån sig och härskna;  När alla 3. slagen<lb/>
+               äro stötte, lägs de tilhopa i Mortelen, röres wäl <lb/>
+               tilsammans och slås förbemälte Soppa der på,<lb/>
+               röres till tiockt eller tunt med Korn-Soppan, altsom<lb/>
+               en behagar det dricka; Socker lägs til efter <lb/>
+               behag och kan brukas, när man wil, en god dryck <lb/>
+               i sänder; När det brukas i Hessig Siukdom låter <lb/>
+               man deri Miölcken af den kylande Frömiölcken <lb/>
+               och kan beredas på föreskrifwit sätt med en tunn<lb/>
+               Korn-soppa, eller rent hett Watn med brända <lb/>
+               Pärlor eller Coraller, litet af hwardera slaget,<lb/>
+detta är en Ädel Soppa.</p>
+            
+		<pb n="26"/>
+<p><hi rend="bold"> Kalkon at koka.</hi></p>
+            <p>Först brytes Bröstet sönder, sedan lägs uti et<lb/>
+               rent kläde och wända Bröstet up, det på lägs <lb/>
+               Lagerbärs-Blad, hel Muskat-Blomma, swep så <lb/>
+               klädet wäl til och lägg uti en Stenkruka eller <lb/>
+               förtent Panna och litet watn der på, och Salt, låt<lb/>
+               så koka en stund, och lägges sedan up med samma <lb/>
+               Krydder.</p>
+
+<p><hi rend="bold">Soppan der til.</hi></p>
+            <p>Fijnt Rågmiöl skal brynas uti en Ståhl-Panna <lb/>
+               och sichtas igenom et grant Florsicht, sedan<lb/>
+               tages Win och Watn lika mycket af hwarthera,<lb/>
+               något Win-Ättika, Muskot, Muskat-Blomma,<lb/>
+               Peppar, Canel, Murklor och Smör, <lb/>
+               wispadt wäl tils det blir samtiockt, och öses sedan <lb/>
+på Kalkon.</p>
+
+<p><hi rend="bold">Får-lår.</hi></p>
+         <p>   Klappas wäl och Späckes med thess Niure-Talg,<lb/>
+            och stickes stycken af Swiskon der uti, lägges<lb/>
+            uti en Kruka med litet Salt och Smör och litet<lb/>
+            Ris, kokas så mer än halfparten in, sedan <lb/>
+            lägges en salt Citron i runda skifwor skuren och<lb/>
+            Citron-Saft röres uti när det lägges up på Fatet.<lb/>
+<lb/>
+		På samma sätt reder man til Kalf-Lår.</p>
+            
+		<p><hi rend="bold">Kalf-Skifwor.</hi></p>
+            <p>Skiär skifwor med twå Finger tiocka bak utur <lb/>
+               Kalf-låret, klappas och späckes med Niure-Talg<lb/>
+               
+						<pb n="27"/>
+               
+               och stora stycken Pomeranss-Skalh, sedan doppas<lb/>
+               det i Salt och Peppar och lägges uti en Kruka <lb/>
+               eller Förtent Panna, med litet Watn och täppes <lb/>
+               wäl til, när det blir adskumat, så lägges <lb/>
+               Smör, rifwit Bröd, litet Peppar, Muskat-Blomma,<lb/>
+               sedan kokas åter lyckt til dess Smöret<lb/>
+               blir Klart, låt litet Ättika eller Citron til at det<lb/>
+               blir Ampert.    Oxe-Skifwor beredes på samma<lb/>
+               sätt.</p>
+            
+            <p><hi rend="bold">Oxkött med Lagerbärs-Blad.</hi></p>
+	<p>Det tiocka ytur Låret på Oxe klappas wäl, <lb/>
+	   Niure-Fett skiäres stora stycken, doppas uti <lb/>
+	   Muskat-Blomma, Peppar och Salt samt Lemon,<lb/>
+	   stoppas rätt tätt uti Kiöttet öfwer alt, Lemon <lb/>
+	   lägges först uti watn, lägges sedan uti en <lb/>
+	   Förtent Panna med Kiällwatn och när skumet <lb/>
+	   är aftagit lägges Smör der uti och kokas at Smöret <lb/>
+      blir klart så lägges Lagerbärs-Bladen der uti <lb/>
+	   emot det blir kokadt; På samma sätt kokas och <lb/>
+Kalf-Kiött.</p>
+
+<p><hi rend="bold">Gryt-Stek af Kalf.</hi></p>
+	<p>Fierdedelen af en Kalf kokas uti Watn och <lb/>
+   skumes wäl, lägges Smör litet Muskat-Blomma, <lb/>
+   hel Peppar, frisk Citron skahlad och skuren <lb/>
+   i skifwor, Lagerbärs-Blad, 2 stycken hårt kokte <lb/>
+	Ägg, litet Win med Swiskon kokas til Soppan <lb/>
+   så är hon färdig.</p>
+
+	<pb n="28"/>
+<p><hi rend="bold">Gryt-Stek af Oxe.</hi></p>
+	<p>Kokas och stadigt skumes, Lagerbärs-Blad, <lb/>
+   Skahl utaf Renette Äplen, litet Smör, <lb/>
+   Muskat-Blomma, Peppar, Neglikor och grant <lb/>
+   Salt, Stufwas at det blifwer något stackug 
+   Soppa.</p>
+            
+<p><hi rend="bold">Potage med Gröna Krydder.</hi></p>
+<p>	Kalf och Höns ic kokas Kiöttet, skumes,<lb/>
+sedan lägges der vti Salt, Syra och Portulack, <lb/>
+Stickelbär, Purjo, Endiwen, hwit Beta <lb/>
+sönderskurit, kokas så tilhopa, doch tillägges litet<lb/>
+Muskat-Blomma, hel Peppar, nog Smör,<lb/>
+det guhla af et eller twänne Äggsispas vti Soppan <lb/>
+med Citron-Saft eller Ättikia, skakas litet <lb/>
+wid Elden och slås sedan på Fat.    NB. Här til <lb/>
+kan eljest brukas hwad Krydder man hafwer.</p>
+
+<p><hi rend="bold">Tjäder-Hane.</hi></p>
+	<p>Späckes wäl med Fläsk stora stycken som <lb/>
+doppas först i Peppar och Salt, sedan kokas tils <lb/>
+han blir mör, så slås Win, Smör, litet Ättikia, <lb/>
+kokas tilhopa at det blir samtiock Soppa.</p>
+
+<p><hi rend="bold">Steka en Ung Oxe-Tunga på Spett.</hi></p>
+	<p>Drages huden af Tungan, Späckes med <lb/>
+Näglikor, sättes på Spettet, bedröppes med <lb/>
+Smör, när hon är stekt tag litet Win-Ättikia, <lb/>
+rifwit Bröd, Canel, Socker, Peppar och litet <lb/>
+Pomenranss-Skahl, koka tilhopa och slå uppå<lb/>
+Tungan. 	</p>						
+            
+            <pb n="29"/>
+										
+<p><hi rend="bold">Stufwa Fiskar.</hi></p>
+	<p>En Fid eller Karp kokas först uti salt watn,<lb/>
+Smör och rifwit Bröd, Muskat-Blomma, <lb/>
+Peppar, Neglikor, Lök, Stickelbär, litet Socker,<lb/>
+tages sedan och kokas tillhopa, hwar uti <lb/>
+Fisken wäl lyckt blir Stufwad.</p>
+
+<p><hi rend="bold">Abborrar och Rudor.</hi></p>
+<p>	Kokas i salt watn, Syra, Persilja, Portulack <lb/>
+hackas smått, Stickelbär, Smör, rifwit <lb/>
+Bröd, Muskat-Blomma litet watn och Win <lb/>
+der uti de Stufwas.</p>
+
+<p><hi rend="bold">På annat Maner.</hi></p>
+	<p>Först kokas Fisken til thes han skummas vti <lb/>
+watn, sedan skiäres Lök och nog Smör och hackas <lb/>
+i samma watn, Peppar, hela Neglikor, <lb/>
+Muskat-Blomma, stötes och kokas så tilhopa,<lb/>
+och skiäres tiocka Hwetebrödz-skifwor sedan lägges <lb/>
+Fisken der på.</p>
+
+<p><hi rend="bold">Surt Pastej.</hi></p>
+	<p>Tages Oxekiött och lägges i Ättikia at det <lb/>
+blir surt, hugg det smått tag nog Peppar, grant <lb/>
+Salt och gnuggat wäl igenom, giör en grof hård <lb/>
+Deg, lägg Kiöttet hwarftals, och tunt skurit <lb/>
+Fläsk deröfwer och så åter et hwarf af Kiöttet in<lb/> 
+til des Pastejen blir full, giör sedan en Soppa af <lb/>
+grant Rågmiöl brynt i en Ståhl-Panna och sichtat <lb/>
+igenom et Flor-Sicht, tag lika mycket Win		<lb/>
+
+<pb n="30"/>
+	   
+som watn samt litet Ättikia, Muskat-Blomma,<lb/>
+Peppar, Canel, Näglikor Socker wäl sönder-<lb/>
+stött och Smör der til, wispa det medan det kokar,<lb/>
+til dess det blir samtiockt, slå så Soppan på <lb/>
+Pastejen giör Lock dertil och sätt i Ugnen. Af<lb/>
+Får-Kiött giöres på samma sätt.</p>
+
+<p><hi rend="bold">Grön Pastej utan Kiött.</hi></p>
+	<p>Nog Syra, Sallat, heit Beta, litet Persilja,<lb/>
+Kiörfwil, Pimpinella, Portulack, något <lb/>
+spinat, utskahlade Ärter, skiäres smått <lb/>
+med en Knif kokas uti Smör, tages ett stycke <lb/>
+groft Bröd och kokas uti Smöret, spädes <lb/>
+utaf Wattnet som Brödet kokat uti, så mycket<lb/>
+man wil, litet Krusbär, Blomman af Ägg röres<lb/>
+sönder uti litet surt, lägge uti det Gröna,<lb/>
+skiäres nog Bröd wäl tunt och lägges under uti<lb/>
+Fatet.</p>
+
+            
+<p><hi rend="bold">Wåflor med Giäst.</hi></p>
+	<p>Ägg 20.stycken, det hwita af 10. kastas <lb/>
+bort, et Stop Miölck, hwilken först kokas, då<lb/>
+hon blir lium igen, röres litet Miöl uti at det blir<lb/>
+något tiockare än til Sten-Kakor, nog smält<lb/>
+Smör, litet Giäst och Socker, laga at det litet <lb/>
+giäser och bakat sedan i Järnet.</p>
+
+<p><hi rend="bold">Lemon-Pastej.</hi></p>
+	<p>Sådan skal Degen wara som till andra Pastejer,<lb/>
+så tages Kalf-Kiött och hugges sönder,<lb/>
+	   
+											<pb n="31"/>
+	   
+salt Citron hackas ibland Kiöttet, hårda Ägg,<lb/>
+smält Smör slås i Kiöttet och litet Citron-saft,<lb/>
+Muskat-Blomma och Peppar lägges i Skorpan, <lb/>
+mycket Klimpar, Märg under och öfwer, Winskifwor <lb/>
+utaf färsk Citron, hårda Äggeguhlor och<lb/>
+nog Märg ofwanpå, och så baka den.</p>
+
+<p><hi rend="bold">Söt Pastej.</hi></p>
+	<p>Oxe-Tunga kokas wäl mör, hugges wäl <lb/>
+små med salt Citron ibland, nog för Skorpa, tag <lb/>
+så Mandlar skahla och klyf i 4. dehlar och lägg <lb/>
+ibland Oxtungan, nog Corinter, Socker, Canel, <lb/>
+Muskat-Blomma, litet Peppar, wäl smält <lb/>
+Smör, litet Franskt Win, och lägg sedan alt <lb/>
+uti Skorpan som måste wara wäl söt.</p>
+
+<p><hi rend="bold">Mandel-Tårta</hi></p>
+			
+<p>	Tag Et och et fierdedels Skålp. söt Mandel,<lb/>
+skahla och lägg i kalt watn, torka honom och stöta<lb/>
+wäl små och medan de stötes, slå et skiedblad <lb/>
+Rosenwatn på at det intet Oljas, tag Tre fierdedels <lb/>
+Skålp. Socker, 10. st Ägg med hwitan af halfparten,<lb/>
+En och en half Marck smält Smör, intet <lb/>
+Salt uti, om något Rosenwatn tages, så måste <lb/>
+det klappas alt upföre at det syns som det wille<lb/>
+giäsa, En Tima måste det klappas det blifwer då <lb/>
+bättre, sedan giör en skorpa af ett Ägg, nog Smör<lb/>
+at det blir mört, kafla så wäl tunt, så strös Canel<lb/>
+under i Pannan förr än Degen lägges i, så strödes <lb/>
+Canel på Degen och på Mandlarna med, sedan<lb/>
+   
+	<pb n="32"/> 
+   
+   lägg Degen uti och så Mandlarna, sedan en <lb/>
+tunn skorpa ofwan på wäl smord med Smör och<lb/>
+så kaflas ut en tunn skorpa som lägges der på wäl <lb/>
+krusat, fått så på Elden, kokas sachta och rör <lb/>
+intet wid henne. </p>
+
+<p><hi rend="bold">At Brygga Miöd.</hi></p>
+<p>	Til hwar Kanna Honing tages 6. Kannor <lb/>
+Watn, men wil man hafwat swagare tages 7. <lb/>
+och til en half-Tunne-Kiettel Miöd tages intet <lb/>
+mer än en knäppnäfwa Humbla, och sätter<lb/>
+honom på Elden at koka, när det hafwer kokat en <lb/>
+god stund, så slås det i et Kar, at det blir lagom <lb/>
+kalt, så lägger man Jäst der uti, som et annat <lb/>
+Jäskar och snör til med et rep, ståendes wäl tiltäpt <lb/>
+i 8 dagar, sedan giör man en Påssa af hwitt <lb/>
+Walmar, läcker Miöden der igenom, sedan tager <lb/>
+man på hwar half-Tunna Miöd 8. eller 10. <lb/>
+Cardemummor, litet Viol-Rot och litet Galligo.</p>
+
+<p><hi rend="bold">Kiörfwel -Tårta.</hi></p>
+	<p>Tag ung Körwill som intet förr afskuren är,<lb/>
+twättas wäl och hackas små, lägg så en Hwete-<lb/>
+Sembla i ett halft stop Miölck koka tilhopa at <lb/>
+det blir en tiock Papp utaf, sedan 6. a 7. Ägg,<lb/>
+stöt wäl sönder, litet grant Salt lägges i Pappen,<lb/>
+så tages Kiörfwelen och kramas wäl Wattnet <lb/>
+ifrån, något smält Smör, lägges så up wid <lb/>
+pass en giöppen full, och en hand full Corinter,<lb/>
+röres altsammans wäl tilhopa, tag så Degen wäl <lb/>
+tunn kaflat och mör utaf Smör, lägg honom ibland<lb/>
+											<pb n="33"/>
+Pannan och strö Canel i botten och ofwan på, så<lb/>
+tag tunn Deg och skiär uti rimsor och lägg i korss<lb/>
+öfwer Tårtan och fläta Degen omkring brädden, <lb/>
+eller krusa henne som man bäst behagar.</p>
+            
+            <p><hi rend="bold">Tårta af stekt Kalf-Niure.</hi></p>
+	<p>Tag Niuren med fett och alt och hugg små,<lb/>
+Corinter, Canel, stötta Skorpor och Socker,<lb/>
+blandat wäl tilhopa ed Franskt eller Spanskt <lb/>
+Win at det blir fucktigt, tag Deg och lägg i Pannan <lb/>
+och strö Canel under och lägg Maten der på <lb/>
+och Canel ofwan uppå, sedan giör hwad Låck dig<lb/>
+hälst behagar, stryk medan hon bakas ofwan på <lb/>
+med en Fiäder Socker och Win.</p>
+
+<p><hi rend="bold">Rijs-Tårta.</hi></p>
+	<p>Först tages Rödt, Franskt eller Spanskt <lb/>
+Win, kokas Rijs der vti tils det blifwer halfkokat,<lb/>
+sedan tag Canel, Socker, hand full Corinter, <lb/>
+några Ägg sönderklappade, sedan lägges öfwer<lb/>
+med en skorpa, som den föregående ; Kan <lb/>
+giöras med Miölck på samma sätt.</p>
+
+<p><hi rend="bold">Kirsbärs-Tårta.</hi></p>
+	<p>Item lika Deg. Tag stielcken ifrån Kirsbären<lb/>
+twättes och torkas wäl, strö stötta Skorpor<lb/>
+i botten, Canel, hwarftahls Bär och Canel , <lb/>
+Socker, Smör och stötta Skorpor, lägg så <lb/>
+Lock efter behag.</p>
+
+<p><hi rend="bold">Winbärs-Tårta.</hi></p>
+	<p>Giöres på samma sätt.</p>
+            
+	<pb n="34"/>
+            
+<p><hi rend="bold">Märg-Tårta.</hi></p>
+<p>	Tag Grädda efter behag, 2. eller 3. Ägge-<lb/>
+guhlor wäl klappade, et rifwit Muskot, något <lb/>
+Socker litet Salt, alt wäl samman blandat, <lb/>
+slå vti ett Tårte-Fat, lägg skifwor af Hwete-<lb/>
+Bröd och skifwor af Dadlar, blå Russin och <lb/>
+Märg, slå gräddan der på och bakat sedan. </p>
+
+<p><hi rend="bold">Stickelbärs-Tårta med Win.</hi></p>
+<p>	Ränsa och skiölg Bären rätt wäl, sedan förwäll<lb/>
+dem med Win, Socker, Canel och Smör,<lb/>
+låt dem litet koka up, tag intet mera Win än de <lb/>
+knapt kunna koka uti, slå dem sedan i et Fat at <lb/>
+swahlas, tag sedan mer Socker och skirdt Smör<lb/>
+och blanda uti Bären giör Degen af ett qwarter<lb/>
+upkokat Watn, en Marcj smält Smör, och en <lb/>
+Marck Miöl, smörg Tårtan med Smör, och fått <lb/>
+i Ugnen och strö sedan Socker på.</p>
+
+<p><hi rend="bold">På annat Maner utan Win.</hi></p>
+	<p>Tag 4. st. rå Ägg, Stickelbär, Socker och<lb/>
+Canel, och hacka at det blir lagom, fyll det sedan <lb/>
+i en Smör-Deg, strö Socker der på och fått i <lb/>
+Ugnen.</p>
+            
+<p><hi rend="bold">Niupon-Tårta.</hi></p>
+<p>	Ränsa Bären wäl och koka dem i Win, lägg<lb/>
+på dem, Socker, Canel, nog Russin, smält<lb/>
+Smör och Corinter, giör Degen som tilförende<lb/>
+med Watn, Smör och Miöl, och giör honom wäl <lb/>
+hård.</p>
+            
+<pb n="35"/>
+	<p><hi rend="bold">Hallon-Tårta.</hi></p>
+	<p>Ränsa Bären, tag Socker, Canel, smält<lb/>
+Smör, Corinter, rör det wäl tilhopa, och giör<lb/>
+Degen som til Smör-Kake-Deg.</p>
+
+<p><hi rend="bold">Lemon-Tårta.</hi></p>
+	<p>Skiär Lemon i små Tärningar och lägg dem <lb/>
+i watn en dag, för än man brukar dem, sedan<lb/>
+krust wäl wattnet ur dem och lägg dem i en Panna, <lb/>
+koka dem i Win och mycket Smör, ( Canel <lb/>
+och Socker efter behag) låt koka at det blir tiockt,<lb/>
+lägg der uti Corinter och sönderskurin Succat,<lb/>
+giör Degen af en Marck Miöl, et qwarter watn,<lb/>
+en och en half Marck Smör, knåda Miölet och <lb/>
+Smöret wäl tilhopa förr än Watn slås til, och<lb/>
+giör Degen lagom hård.</p>
+
+            <p><hi rend="bold">Brunell-Tårta.</hi></p>
+			
+	<p>Tag 1. Skålp. Bruneller och skiär hwardera<lb/>
+i tre stycken, sedan koka dem i Win, litet Watn,<lb/>
+Socker, Smör och Canel, hös dem på Fat at de <lb/> 
+bli kalla, giör Degen af et qwarter Watn och ett<lb/>
+halft stop Miöl, rör wäl tilhopa at det blir en tunn<lb/>
+Deg, sedan tag 3. Marcker Smör, giör det til <lb/> 
+tunna Kakor och lägg i Watn at Saltet drages <lb/>
+der utur, lägg det sedan på Degen och kafla ut 5. <lb/>
+eller 6 gånger, så blir han färdig.</p>
+
+<p><hi rend="bold">Engelsk Buding.</hi></p>
+	<p>Et stop Miölck, En och en half Niure Talg<lb/>
+wäl sönderskuren, kokas med Miölcken en stund,<lb/>
+
+	<pb n="36"/>
+tag så tre Semblor skurne i skifwor, blöt dem uti<lb/>
+Miölcken som kokat är, lägg sedan der til Socker,<lb/>
+Muskat-Blomma, litet Neglikor, Rosenwatn,<lb/>
+Canel, en stor göpen Russin, en god glöpen <lb/>
+Corinter, röres wäl tilhopa, märckes at äfwen til-<lb/>
+lägges litet grnat Salt och 6. st Ägg, sedan det <lb/>
+wäl är samman rördt, smörjes en Ståhlpanna i <lb/>
+botten med Smör, lägg så sammanblandningen <lb/>
+o Pannan med litet Smör här och där, sätt uti<lb/>
+Ugnen at bakas och när han tages ut, låt honom <lb/>
+stå litet och stänck sedan litet Rosenwatn derpå.</p>
+
+<p><hi rend="bold">Ägg-Bubert.</hi></p>
+<p>	Tag et halft stop Miölck, 5. stycken Ägg och <lb/>
+något stött Mandel, Socker, Saffran och <lb/>
+Rosenwatn, wispas wäl tilsamman och slås uti ett <lb/>
+Fat och sättes på ett Fyrfat, stekes ock små<lb/>   
+Hwetebrödz skifwor i skirt Smör, lägg och skirt smör <lb/>
+alt öfwer och gräddas så tilhopa, rif sedan Socker <lb/>
+alt öfwer.</p>
+
+<p><hi rend="bold">Mandel-Bröd.</hi></p>
+	<p>Tag 1. Skålp. Mandel wäl sönderstött, 1.<lb/>
+skålp. Socker, det hwita af 8 st Ägg, rif detta <lb/>
+wäl tilhopa ju längre det röres dest bättre blifwer<lb/>
+det, sedan baka det på en Bläckskifwa som kan sättas<lb/>
+i en Tårtepanna, Eld under och öfwer, och <lb/>
+wid en sachta eld bakas.</p>
+
+<p><hi rend="bold">Klenät.</hi></p>
+	<p>Tag til 20. st Ägg, 2 giöpnar rifwit <lb/>
+Socker, Muskat-Blomma, Saffran, 4. skiedblad	<lb/>
+
+										<pb n="37"/>
+	   
+Spanskt Win, knåda det wäl med Miölck, och <lb/>
+kafla det tunt ut och skiär sönder på hwad maner <lb/>
+man behagar, bakat i Smör; men smöret måste<lb/>
+wäl siuda innan man lägger Klenäten der uti.</p>
+
+<p><hi rend="bold">Strufwor.</hi></p>
+	<p>Til en Kanna Miölck, tag 14. st. Ägg, et fier-<lb/>
+dedels Skålp. Corinter, Spanskt Win, litet <lb/>
+Saffran, rör detta wäl tilhopa med något Stål-<lb/>
+qwarns-Miöl, wispa Degen rätt tunn doch så<lb/>
+tiock at han kan ligga i ring, lägg litet Giäst i at<lb/>
+han något giäser, och låt sedan rinna genom en <lb/>
+Tratt, uti skirdt Smör at kokas.</p>
+
+            <p><hi rend="bold">Wäder-Munckar.</hi></p>
+		
+	<p>Först tage et halft stop Miölck och låt koka up,<lb/>
+wispa Miöl der i så tiockt som en gröt, tag af Elden<lb/>
+och rör 4. st. Ägg, Muskat-Blomma och litet<lb/>
+Saffran, klappa det wäl, sedan kokas det i<lb/>
+Smör.</p>
+
+<p><hi rend="bold">Socker-Skorpor.</hi></p>
+	<p>Tag Socker wäl sönderstött, och fijnt sichtat<lb/>
+Hwetemiöl, 5. st Ägg, wispa i en fierdedels tima,<lb/>
+rör Sockret wäl deruti så at det smältes, rör<lb/>
+sedan Miölet der til och brukat wäl; men lägg intet<lb/>
+Miölet der uti förr än Ugnen är tilredz, hwilken<lb/>
+intet skal wara för het, och lägg Degen på <lb/>
+grått Papper och sätt i Ugnen at bakas.    Til<lb/>
+5. st. Ägg, 1. Skålp. Socker, 1. Skålp. Miöl <lb/>  
+och 5. Lod hwit Stärckelse.</p>
+            
+						<pb n="38"/>
+<p><hi rend="bold">Sockerkakor utaf Citroner, Winbär, Hallon 
+och allehanda slags fruchter.</hi></p>
+	<p>Man tager fijnt stött Socker, sätter det til<lb/>
+Elden och rör det stedze, at det icke smälter, när<lb/>
+det är så hett som det möyeligen kan blifwa slår<lb/>
+man Saften utaf Fruchten der uti och rör det wäl<lb/>
+samman, tag det så från Elden och dröp små Kakor<lb/>
+der af med en skied, uppå Papper, men uti<lb/>
+Sockret skal altid röras at det icke smälter.</p>
+
+<p><hi rend="bold">Syster at Baka.</hi></p>
+<p>	Man tager Et stop Miölck som wärmes, der <lb/>
+uti röres Hwetemiöl at det blifwer som en Gröt,<lb/>
+lägger så et skedblad Giäst uti och litet Salt, <lb/>
+sedan slår man 8. Ägg der uti, litet Saffran, ett<lb/>
+stycke smält Smör, 4. stötte Skorpor och rörer<lb/> 
+det wäl tilhopa; sedan lägger man ett halft skålp.<lb/>
+Corinter och et halft skålp. Rusiner der til och rör <lb/>
+wäl ihopa, bakar det så vti Tårtepannan eller på<lb/>
+et Fat, ock in emot det är bakat, smälter man <lb/>
+Smör och stryker öfwer så är det färdigt.</p>
+
+<p><hi rend="bold">Broder at Baka.</hi></p>
+	<p>Man tager et stop Miölck och wärmer, sedan <lb/>
+	tager man hälften Bohwetmiöl och hälften <lb/>
+	Hwetemiöl, rörer det ihop med Miölcken, at det<lb/>
+	blifwer så tiockt som en Gröt, sedan slår man 3.<lb/>
+	Ägg, 2. stötta Skorpor, 1. stött Muskot, och<lb/>
+	litet grant Salt der uti, rörer det wäl tilhopa,<lb/>
+	sedan lägger man der uti ett skiedblad frisk Jäst,<lb/>
+	   
+					<pb n="39"/>
+	   
+	et halft skålp.  SKADA SIDA   <lb/>
+	och rörer det ihop, låter det giäsa up, ---<lb/>
+	det at det giäser wäl, så slår man -----<lb/>
+	Pannan och låter Degen uti, läg på -----<lb/>
+	bakas med Eld öfwer och under, nä------<lb/>
+	stryker man öfwer med litet smält ------<lb/>
+	färdigt.</p>
+	
+	<p><hi rend="bold">Miölck-Pota--.</hi></p>
+		<p>Tag 6. Lod Mandlar och s---<lb/>     
+	watn, slå der på 3. qwarter ---<lb/>
+	qwarter söt Miölck, låt det k--<lb/>
+	Lod Rismiöl deri, at det kan ---<lb/>
+	så 2. eller 3. ägg der uti, kom ---<lb/>
+	Canel der til, tag så en Hwetes---<lb/>
+	skifwor, stek dem, blöt dem sedan ---<lb/>
+	Grädde, lägg dem så uti Fatet och kom at öf---<lb/>
+	nämbde Mandel-Pappen der på, giör så en ---<lb/>
+	gemiölck och gif then öfwer   At lägga kring<lb/>
+	om brädden : Tag bladen af Rödbeter, stöt dem<lb/>
+	och tryck gröna saften af, tag så Äggehwita och<lb/>
+	slå den wäl, kom den gröna saft der uti, lika som <lb/>
+	man wil hafwa det starckt grönt til, som wäl<lb/>
+	Socker der uti, och litet Canel-Watn, slå det<lb/>
+	til lutter skum, slå det så straxt uti ett Silfwer-<lb/>
+	Fat, och fått det på et Fyrfat, at det kan blifwa<lb/>
+	så styft, at man kan skiära det i långa stycken,<lb/>
+	som lägges om randen.</p>
+					
+		<pb n="40"/>
+	<p>SKADAD SIDA</p>
+            
+			<p><hi rend="bold">--eda Sirap til allehanda som man
+				wil Sylta.</hi></p>
+	<p>---tager til hwart Skålp. Socker et och<lb/>
+---er Watn, slår det i Syltekittelen,<lb/>
+---at det nog skummas, lägger så<lb/>
+---som är hugget i lagom stycken,<lb/>
+---t wäl om uti skumet, samlar<lb/>    
+---dorna af Kittelen och lägger<lb/>
+---t, sätter så Kiettelen på en<lb/>
+---ar Kohl-Eld under, låter det <lb/>
+---röra der uti, tils det wil koka <lb/>
+---om så af och skuma wäl med en <lb/>
+---doch skal noga achtas at intet af<lb/>
+----följer med. Sätt Kiettelen så til Elden <lb/>
+---och när han wil koka öfwer så pladska der uti<lb/>
+--med slata skiedbladet, så gifwer alt skumet sig til<lb/>
+sidorna, när nu skimet är alt rent aftagit, så <lb/>
+pröfwa med skieden om Sirapen faller uti stycker <lb/>
+som Schele, så är han nog, tag honom så från <lb/>
+Elden, och när han håller up at koka, så skuma<lb/>
+honom wäl ren, sätt honom så at bruka til hwad <lb/>  
+du wilt.  NM. Man må hafwa så mycket Socker<lb/>
+man wil öfwer 1. Skålp., så tager man intet mer <lb/>
+än en Äggehwita.</p>
+
+<p><hi rend="bold">Ättika at Brygga.</hi></p>
+	<p>Man tager en Tunna Malt och brygger til <lb/>
+lagom starck Wört såsom Swagöhl, tages ock<lb/>
+
+										<pb n="41"/>
+	   
+en Marck Humble der til, koka honom bland <lb/>  
+Wörten, sedan hon är kokad, slås hon uti ett <lb/>
+Fat som är innan bestrukit med surdeg, och slås <lb/>  
+Wörten de uti så het som hon är, och när hon är    <lb/>
+blefwen lagom kall, så tager men en Kanna Giäst <lb/>
+och gifwer der uti, sedan ströder man malit Malt <lb/>
+öfwerst uppå, och binder til, först med en Linne<lb/>
+Duk och sedan der öfwer med Skinn och låter <lb/>   
+stå i Fiorton dagar, eller längre om behöfwes,<lb/> 
+ett tapphohl skal wara nederst på Tunnan,<lb/>
+at kunna uttappa och smaka när ättikan är fullstånden <lb/>
+och starck nog. </p>
+
+<p><hi rend="bold">At få Smör i hastighet.</hi></p>
+	<p>Tag en Fyrkantig Flaska, skiölg henne ren <lb/>
+och lägg henne på en Kachel-Ugn på alla fyra  <lb/>
+kanter at hon blir warm, imedlertid haf tilredz <lb/>
+så mycket söt Grädde som är lium giord at flaskan <lb/>
+der af kan blifwa half, sätt så skrufwen fast på <lb/> 
+och bindt en liten klut om skrufwen, sqwalpa den <lb/>
+up och ned med bägge händer, (lika som man rister <lb/>
+ögnewatn, när en är trött blefwen så tager en <lb/>
+annan och fortfar med sqwalpningen, in til dess <lb/>
+man har Smör, som skier på en Ottondedels tima,<lb/>
+slå thet sedan i en skåhl och samka Smöret <lb/>
+up med en skied och saltat.</p>
+
+<p><hi rend="bold">När man Kiärnar och intet kan få Smör.</hi></p>
+<p>Tag en hand full smått Salt eller mera efter <lb/>
+myckenheten af Gräddan, giör der af en starck lake<lb/>
+och slå i Kärnan så får tu Smör.</p>
+            
+				 <div2 >
+           
+            <list type="index">
+               <head>Register</head>
+               <item rend="text-align: center">A</item>
+               <item>Abborrar Fylda..............<ref>16</ref>
+               </item>
+               
+               <item>Ägg-Bubert<ref>36</ref>
+               </item>
+               
+               <item>Ägg-Tårta<ref>10</ref>
+               </item>
+               
+               <item>Ärt-Soppa<ref>5</ref></item>
+               <item>Äppel-Munckar<ref>15</ref></item>
+               <item>Abborrar och Rudor Stufwa<ref>29</ref></item>
+               <item>Abborrar och Rudor  På annat Maner<ref>29</ref></item>
+               <item rend="text-align: center">B</item>
+               <item>Buding af färck Strömming<ref>11</ref></item>
+               <item>Blå-Kål<ref>3</ref></item>
+               <item>Barbaris-Bär Syltade<ref>20</ref></item>
+               <item>Brunell-Soppa<ref>21</ref></item>
+               <item>Brunell-Soppa Tårta<ref></ref></item>
+               <item>Buding Engelsk<ref>35</ref></item>
+               <item>Broder at baka<ref>38</ref></item>
+               <item rend="text-align: center">C</item>
+               <item>Citron-Schele<ref>14</ref></item>
+               <item>Citron-Soppa<ref>12</ref></item>
+               <item>Corint-Soppa <ref>21</ref></item>
+               <item rend="text-align: center">E</item>
+               <item>Engelsk Buding<ref>35</ref></item>
+                  <pb/>
+               <item rend="text-align: center">F</item>
+               <item>Får-lår	<ref>26</ref></item>
+               <item>Fransyska Bröd<ref>29</ref></item>
+               <item rend="text-align: center">G</item>
+               
+               <item>Gröt af söt Grädda<ref>3</ref></item>
+               <item>Gåsehalfwor Röka<ref>5</ref></item>
+               <item>Gryte-Stek af Kalf<ref>27</ref></item>
+               <item>Gryte-Stek af Oxe<ref>28</ref></item>
+               <item rend="text-align: center">H</item>
+               <item>Hallon-Mos<ref>17</ref></item>
+               <item>Hallon-Mos Tårta<ref>35</ref></item>
+               <item rend="text-align: center">K</item>
+               <item>Klenät<ref>36</ref></item>
+               <item>Kiörfwel-Tårta<ref>32</ref></item>
+               <item>Kierssbärs-Tårta<ref>33</ref></item>
+               <item>Kierssbärs-Tårta Mos swart<ref>14</ref></item>
+               <item>Kalf-Sylta<ref>2</ref></item>
+               <item>Kaka at baka af sur Grädda 	<ref>10</ref></item>
+               <item>Kaka at baka På annat maner 	<ref>10</ref></item>
+               <item>Kaka at baka af Rågrbröd 	<ref>9</ref></item>
+               <item>Kaka at baka På annat Maner 	<ref>9</ref></item>
+               <item>Kräfte-soppa<ref>22</ref></item>
+               <item>Korn-Wälling	<ref>13</ref></item>
+               <item>Korn-Wälling På annat Maner<ref>25</ref></item>
+               <item>Kalkon at koka	<ref>26</ref></item>
+               <item>Kalf-Skifwor	<ref>26</ref></item>
+               <pb/>
+               <item>Krikon Syltade	<ref>18</ref></item>
+               <item>Kycklinar Stufwa<ref>16</ref></item>
+               <item rend="text-align: center">L</item>
+               <item>Lemon-Pastej<ref>30</ref></item>
+               <item>Lemon-Pastej Kaka<ref>8</ref></item>
+               <item>Lemon-Pastej Tårta<ref>35</ref></item>
+               <item rend="text-align: center">M</item>
+               <item>Miölck-Potage<ref>39</ref></item>
+               <item>Märg-Tårta<ref>33</ref></item>
+               <item>Mandel-Bröd	<ref>36</ref></item>
+               <item>Mandel-Bröd Tårta	<ref>31</ref></item>
+               <item>Mandel-Bröd Soppa	<ref>21</ref></item>
+               <item>Munckar af sur Grädda<ref>15</ref></item>
+               <item>Marmelad af Pomeransz<ref>9</ref></item>
+               <item>Miöd at brygga<ref>32</ref></item>
+               <item rend="text-align: center">N</item>
+               <item>Niupon Syltade	<ref>19</ref></item>
+               <item>Niupon Syltade  Tårta<ref>34</ref></item>
+               <item rend="text-align: center">O</item>
+               <item>Oxe-Tunga Steka på Spett<ref>28</ref></item>
+               <item>Oxe-Kiött med Lagerbärsblad	<ref>27</ref></item>
+               <item rend="text-align: center">P</item>
+               <item>Pastej af Dufwor<ref>7</ref></item>
+               <item>Pastej af Fogel<ref>6</ref></item>
+               <item>Pastej grön utan Kiött<ref>30</ref></item>
+               <item>Pöse-Munckar<ref>8</ref></item>
+               <pb/>
+               <item>Pomeranss-Skalh Sylta<ref>19</ref></item>
+               <item>Potage med gröna Krydder<ref>28</ref></item>
+               
+               <item rend="text-align: center">R</item>
+               <item>Rull-Sylta	<ref>2</ref></item>
+               <item>Rån runda at baka<ref>12</ref></item>
+               <item>Rån runda at baka annat slag<ref>12</ref></item>
+               <item>Rån runda at baka än annat slag<ref>12</ref></item>
+               <item>Ris-Tårta<ref>33</ref></item>
+               <item rend="text-align: center">S</item>
+               <item>Socker-Kakor vtaf allehanda slags frucht<ref>38</ref></item>
+               <item>Sylter at baka<ref>38</ref></item>
+               <item>Sirap at bereda til allehanda at Sylta <ref>40</ref></item>
+               <item>Socker Skorpor<ref>37</ref></item>
+               <item>Söt Pastej<ref>31</ref></item>
+               <item>Stickelbärs-Tårta med Win	<ref>34</ref></item>
+               <item>Stickelbärs-Tårta utan Win	<ref>34</ref></item>
+               <item>Strufwor<ref>37</ref></item>
+               <item>Stenkakor	<ref>11</ref></item>
+               <item>Semblor Fylda<ref>11</ref></item>
+               <item>Spicke Kårfwar	<ref>4</ref></item>
+               <item>Spicke Skincka	<ref>4</ref></item>
+               <item>Spis-Kummins-Soppa <ref>23</ref></item>
+               <item>Sockerbröd af Citroner	<ref>16</ref></item>
+               <item>Surt Pastej	<ref>29</ref></item>
+               <item>Smör at kunna få i hastighet<ref>41</ref></item>
+               <item>Smör at kunna få På annat Maner<ref>31</ref></item>
+               <item>Sockerbröd <ref>17</ref></item>
+               <item>Sockerbröd annat slag<ref>17</ref></item>
+               <pb/>
+               <item>Soppa på Kalkon	<ref>26</ref></item>
+               <item>Soppa för Magert Folck	<ref>20</ref></item>
+               <item>Soppa i Siukdom	<ref>25</ref></item>
+               <item rend="text-align: center">T</item>
+               <item>Tranbärs Mos<ref>18</ref></item>
+               <item>Tiäder Hane	<ref>28</ref></item>
+               <item>Tårta af Stekt Kalf-Niure<ref>33</ref></item>
+               <item>Tårta af Winbär<ref>33</ref></item>
+               <item>Tårta af Stickelbär<ref>34</ref></item>
+               <item>Tårta På annat maner<ref>34</ref></item>
+               <item>Tårta af Ris<ref>33</ref></item>
+               <item>Tårta af Niupon<ref>34</ref></item>
+               
+               <item>Tårta af Märg<ref>33</ref></item>
+               <item>Tårta af Mandel<ref>31</ref></item>
+               <item>Tårta af Lemon<ref>35</ref></item>
+               <item>Tårta af Kiersbärs<ref>33</ref></item>
+               <item>Tårta af Kiörfwel<ref>32</ref></item>
+               <item>Tårta af Hallon<ref>35</ref></item>
+                  <item>Tårta af Bruneller<ref>35</ref></item>
+                  <item>Tårta af Ägg<ref></ref>10</item>
+               <item rend="text-align: center">W</item>
+                  <item>Wäder-Munckar<ref>37</ref></item>
+                 
+                  <item>Winbärs-Tårta	<ref>33</ref></item>
+                  <item>Waflor med Giäst<ref>30</ref></item>
+                  <item>Waflor med Giäst annat slags<ref>13</ref></item>
+                  <item>Wallonska Kårfwar	<ref>1</ref></item>
+               
+            </list>   
+            
+         </div2>				 
+         </div1>
+        
+      </body>
+      
+     <back>
+        
+     </back>
+   </text>
+</TEI>
